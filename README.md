@@ -71,7 +71,9 @@ Each push to master branch automatically publishes the application to Play Store
 - `versionCode` : Integer : To be monotonically incremented with each merge. Failure to do so will lead to publishing error, and thus is a crucial step before any merge
 - `versionName` : String : User visible version of the app. To be changed following [symantic versioning](http://semver.org/)
 
+
 ### Libraries:
+
 - [RxJava 2](https://github.com/ReactiveX/RxJava)
 - [Dagger 2](https://github.com/google/dagger)
 - [ThreeTenABP](https://github.com/JakeWharton/ThreeTenABP)
